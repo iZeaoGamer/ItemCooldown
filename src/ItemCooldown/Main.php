@@ -38,7 +38,7 @@ class Main extends PluginBase implements Listener{
 		if($item == $this->getConfig()->get("item")){
 			if($action == 1 or $action == 3){
 			if(isset($this->a[strtolower($player->getName())])){
-				$player->sendMessage(TF::RED. TF::ITALIC. "You will be able to use this item in ". $this->cooldown->get(strtolower($player->getName())). " seconds");
+				$player->sendMessage(TF::RED. TF::ITALIC. "§cTNT is in cooldown at the moment. Please wait §4". $this->cooldown->get(strtolower($player->getName())). " §cmore seconds until you can use Flint and steel again.");
 				$event->setCancelled();
 		}else{
 			$effect4 = Effect::getEffect($this->getConfig()->get("effect"));
