@@ -8,9 +8,9 @@
 
 # You must enter the item ID
 
-item: 369
+item: 259
 
-seconds-cooldown: 90
+seconds-cooldown: 15
 
 # Here is the list of the available effects as well as their corresponding number:
 # SPEED = 1
